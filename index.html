@@ -2,556 +2,562 @@
 <html lang="en">
 
 <head>
-<!-- start head.html-->
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My Project With Gulp</title>
+  <!-- start head.html-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project With Gulp</title>
 
 
 
-<link rel="stylesheet" type="text/css" href="/build/assets/css/style.min.css" />
+  <link rel="stylesheet" type="text/css" href="/build/assets/css/style.min.css" />
 
-<link rel="stylesheet" type="text/css" href="/build/assets/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="/build/assets/css/slick.min.css">
-<link rel="stylesheet" type="text/css" href="/build/assets/css/slick-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="/build/assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/build/assets/css/slick.min.css">
+  <link rel="stylesheet" type="text/css" href="/build/assets/css/slick-theme.min.css">
 
 
 
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
   integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
   crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-<!-- end head.html-->
-<!-- start css -->
+  <!-- end head.html-->
+  <!-- start css -->
 
 
-<!-- end css -->
-<!-- start fontAwesome -->
+  <!-- end css -->
+  <!-- start fontAwesome -->
 
 
-<!-- end fontAwesome -->
+  <!-- end fontAwesome -->
 </head>
 
 <body>
   <div id="upicon">
-    <i class="fa fa-chevron-up" aria-hidden="true" ></i>
+    <i class="fa fa-chevron-up" aria-hidden="true"></i>
   </div>
-<!-- start header.html-->
-<header>
-  <div class="container">
-    <div class="header">
-      <div class="header__logo">
-        <img src="/build/assets/images/Logo Header.png" alt="logo">
+  <!-- start header.html-->
+  <header>
+    <div class="container">
+      <div class="header">
+        <div class="header__logo">
+          <img src="/build/assets/images/Logo Header.png" alt="logo">
+        </div>
+        <div class="header__nav-right">
+          <div class="header__nav">
+            <ul>
+              <li><a href="#sec_feature">FEATURES</a></li>
+              <li><a href="#sec_pricing">PRICING</a></li>
+              <li><a href="#sec_reviews">REVIEWS</a></li>
+              <li><a href="#sec_about">ABOUT US</a></li>
+              <li><a href="#sec_contact">CONTACT</a></li>
+            </ul>
+          </div>
+          <div class="header__button">
+            <button>
+              <h2>GET IT FREE</h2>
+            </button>
+          </div>
+          <div class="header__icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+        </div>
       </div>
-      <div class="header__nav-right">
-        <div class="header__nav">
-          <ul>
-            <li><a href="#sec_feature">FEATURES</a></li>
-            <li><a href="#sec_pricing">PRICING</a></li>
-            <li><a href="#sec_reviews">REVIEWS</a></li>
-            <li><a href="#sec_about">ABOUT US</a></li>
-            <li><a href="#sec_contact">CONTACT</a></li>
-          </ul>
-        </div>
-        <div class="header__button">
-          <button>
-            <h2>GET IT FREE</h2>
-          </button>
-        </div>
-        <div class="header__icon">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
 
-</header>
-<!-- end header.html-->
-<!-- start content -->
-<!-- start sidebar.html-->
-<div class="sidebar">
-  <div class="container">
-    <div class="sidebar__closebtn">
-      <i class="fa fa-times" aria-hidden="true"></i>
-    </div>
-    <div class="sidebar__menu">
-      <div class="sidebar__menu--item">
-        <a href="#sec_feature">Features <i class="fa fa-cogs" aria-hidden="true"></i></a>
+  </header>
+  <!-- end header.html-->
+  <!-- start content -->
+  <!-- start sidebar.html-->
+  <div class="sidebar">
+    <div class="container">
+      <div class="sidebar__closebtn">
+        <i class="fa fa-times" aria-hidden="true"></i>
       </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_clients">Our clients <i class="fa fa-users" aria-hidden="true"></i></a>
-      </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_spec">Specifications <i class="fa fa-list-alt" aria-hidden="true"></i></a>
-      </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_pricing">Pricing <i class="fa fa-money" aria-hidden="true"></i></a>
-      </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_reviews">Reviews <i class="fa fa-star-half-o" aria-hidden="true"></i></a>
-      </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_about">About Us <i class="fa fa-info-circle" aria-hidden="true"></i></a>
-      </div>
-      <div class="sidebar__menu--item">
-        <a href="#sec_contact">Contact <i class="fa fa-phone" aria-hidden="true"></i> </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- end sidebar.html-->
-<!-- start banner.html-->
-<section class="sec_banner" id="sec_banner">
-  <div class="container">
-    <div class="banner">
-      <div class="banner__title">
-        <div class="banner__title--icon">
-          <div class="icon1">
-            <img src="/build/assets/images/Icon App1.png" alt="">
-          </div>
-          <div class="icon2">
-            <img src="/build/assets/images/Button Play.png" alt=""> <span>WATCH VIDEO</span>
-          </div>
+      <div class="sidebar__menu">
+        <div class="sidebar__menu--item">
+          <a href="#sec_feature">Features <i class="fa fa-cogs" aria-hidden="true"></i></a>
         </div>
-        <div class="banner__title--ctn">
-          <h1>What's New in The Apps Store for Quick Chats</h1>
-          <p>Try the best chat platform in the world, you can install where you need it.
-            Our prestigious security will be well protected.
-          </p>
+        <div class="sidebar__menu--item">
+          <a href="#sec_clients">Our clients <i class="fa fa-users" aria-hidden="true"></i></a>
         </div>
-        <div class="banner__title--btn">
-          <button class="fir_btn">
-            <h2>BUY NOW $19.99</h2>
-          </button>
-          <button class="sed_btn">FEATURE</button>
-          <div class="icon2">
-            <div class="icon2__img"><img src="/build/assets/images/Button Play.png" alt=""></div>
-            <div class="icon2__link"><span>WATCH VIDEO</span></div>
-            
-          </div>
+        <div class="sidebar__menu--item">
+          <a href="#sec_spec">Specifications <i class="fa fa-list-alt" aria-hidden="true"></i></a>
         </div>
-      </div>
-      <div class="banner__img">
-        <img src="/build/assets/images/Smartphone Mockup.png" alt=smartphone>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-<!-- end banner.html-->
-<!-- start feature.html-->
-<section class="sec_feature" id="sec_feature">
-  <div class="container">
-    <div class="feature">
-      <div class="feature__slogan">
-        <h1>Features</h1>
-        <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
-      </div>
-      <div class="feature__content">
-        <div class="feature__content--word">
-          <h3>What is it</h3>
-          <h1>Fastlanding</h1>
-          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
-            alias consequatur aut perferendis doloribus asperiores repellat. Set up perspiciatis unde
-            omnis iste natus error sit volemtatem.
-          </p>
-          <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-          <div class="word__btn">
-            <button id="ios"><img alt="iosdlw" src="/build/assets/images/Apple ios.png"></button>
-            <button id="and"><img alt="androiddlw" src="/build/assets/images/Android.png"></button>
-          </div>
+        <div class="sidebar__menu--item">
+          <a href="#sec_pricing">Pricing <i class="fa fa-money" aria-hidden="true"></i></a>
         </div>
-        <div class="feature__content--img">
-          <img alt="smartphone" src="/build/assets/images/Smartphone Mockup Cross.png">
+        <div class="sidebar__menu--item">
+          <a href="#sec_reviews">Reviews <i class="fa fa-star-half-o" aria-hidden="true"></i></a>
+        </div>
+        <div class="sidebar__menu--item">
+          <a href="#sec_about">About Us <i class="fa fa-info-circle" aria-hidden="true"></i></a>
+        </div>
+        <div class="sidebar__menu--item">
+          <a href="#sec_contact">Contact <i class="fa fa-phone" aria-hidden="true"></i> </a>
         </div>
       </div>
     </div>
   </div>
-</section>
-<!-- end feature.html-->
-<!-- start client.html-->
-<section class="sec_clients" id="sec_clients">
-  <div class="container">
-    <div class="clients">
-      <div class="clients__slogan">
-        <h1>Our clients</h1>
-        <p>These brands certify it</p>
-      </div>
-      <div class="clients__brand">
-        <div class="clients__brand--item">
-          <img alt="Brand1" src="/build/assets/images/Brand 1.png">
-        </div>
-        <div class="clients__brand--item">
-          <img alt="Brand2" src="/build/assets/images/Brand 2.png">
-        </div>
-        <div class="clients__brand--item">
-          <img alt="Brand3" src="/build/assets/images/Brand 3.png">
-        </div>
-        <div class="clients__brand--item">
-          <img alt="Brand4" src="/build/assets/images/Brand 4.png">
-        </div>
-        <div class="clients__brand--item">
-          <img alt="Brand5" src="/build/assets/images/Brand 5.png">
-        </div>
-        <div class="clients__brand--item">
-          <img alt="Brand6" src="/build/assets/images/Brand 6.png">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end client.html-->
-<!-- start spec.html-->
-<section class="sec_spec" id="sec_spec">
-  <div class="container">
-    <div class="spec">
-      <div class="spec__slogan">
-        <h1>Specifications</h1>
-        <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
-      </div>
-      <div class="spec__group">
-        <div class="spec__group--item">
-          <div class="item--img">
-            <img alt="icon" src="/build/assets/images/Icon.png">
-          </div>
-          <h2>Data encryption</h2>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti.
-          </p>
-        </div>
 
-        <div class="spec__group--item">
-          <div class="item--img">
-            <img alt="icon" src="/build/assets/images/mail.png">
-          </div>
-          <h2>Corporate mail</h2>
-          <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-            Vivamus elementum semper nisi.
-          </p>
-        </div>
-
-        <div class="spec__group--item">
-          <div class="item--img">
-            <img alt="icon" src="/build/assets/images/storage.png">
-          </div>
-          <h2>Storage</h2>
-          <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-            nisi ut aliquid.
-          </p>
-        </div>
-
-        <div class="spec__group--item">
-          <div class="item--img">
-            <img alt="icon" src="/build/assets/images/download.png">
-          </div>
-          <h2>Data download</h2>
-          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni.
-          </p>
-        </div>
-      </div>
-
-      <div class="spec__group2">
-        <div class="spec__group2--item">
-          <div class="item--img">
-            <img alt="support" src="/build/assets/images/support.png">
-          </div>
-          <div class="item--word">
-            <h2>Support and services</h2>
-            <p>Itaque earum rerum hic tenetur a sapiente delectus,
-              ut aut reiciendis voluptatibus maiores alias consequatur.
-            </p>
-          </div>
-        </div>
-
-        <div class="spec__group2--item">
-          <div class="item--img">
-            <img alt="support" src="/build/assets/images/quick.png">
-          </div>
-          <div class="item--word">
-            <h2>Quick talk</h2>
-            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus id quod.
-            </p>
-          </div>
-        </div>
-
-        <div class="spec__group2--item">
-          <div class="item--img">
-            <img alt="support" src="/build/assets/images/rocket.png">
-          </div>
-          <div class="item--word">
-            <h2>Powerful servers</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end spec.html-->
-<!-- start pricing.html-->
-<section class="sec_pricing" id="sec_pricing">
-  <div class="container">
-    <div class="pricing">
-      <div class="pricing__slogan">
-        <h1>Pricing</h1>
-        <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
-
-        <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
-          Cras dapibus. Vivamus elementum semper nisi.
-        </p>
-      </div>
-      <div class="pricing__content">
-        <div class="pricing__content--item">
-          <h1>Free</h1>
-          <span class="dolar">$</span>
-          <p><span>0 </span>/Year</p>
-          <ul>
-            <li>1 - 5 Chat Rooms</li>
-            <li>5 User Each Room</li>
-            <li>10 GB of Storage</li>
-            <li>1 Corporate Mail</li>
-            <li>Data Encryption</li>
-            <li>Copy and Download Data</li>
-          </ul>
-          <button>START NOW</button>
-        </div>
-
-        <div class="pricing__content--item">
-          <div class="popular">
-            <h3>POPULAR PRICE</h3>
-          </div>
-          <h1>SMEs</h1>
-          <span class="dolar">$</span>
-          <p><span>9.99 </span>/Year</p>
-          <ul>
-            <li>1 - 15 Chat Rooms</li>
-            <li>10 User Each Room</li>
-            <li>20 GB of Storage</li>
-            <li>5 Corporate Mail</li>
-            <li>Data Encryption</li>
-            <li>Copy and Download Data</li>
-          </ul>
-          <button>SELECT PLAN</button>
-        </div>
-
-        <div class="pricing__content--item">
-          <h1>Enterprise</h1>
-          <span class="dolar">$</span>
-          <p><span>19.99 </span>/Year</p>
-          <ul>
-            <li>1 - 30 Chat Rooms</li>
-            <li>30 User Each Room</li>
-            <li>Unlimited of Storage</li>
-            <li>Unlimited Corporate Mail</li>
-            <li>Data Encryption</li>
-            <li>Copy and Download Data</li>
-          </ul>
-          <button>SELECT PLAN</button>
-
-        </div>
-      </div>
-      <div class="pricing__note">
-        <p>* All these prices are in US dollars and change according to their rise or fall.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end pricing.html-->
-<!-- start review.html-->
-<section class="sec_reviews" id="sec_reviews">
-  <div class="container">
-    <div class="reviews">
-      <div class="reviews__slogan">
-        <h1>Reviews</h1>
-        <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
-      </div>
-      <div class="reviews__carousel">
-        <div class="reviews__carousel--item">
-          <div class="item__img">
-            <img alt="avt" src="/build/assets/images/Jeff-Thomas.jpg">
-          </div>
-          <h1>Jeff Thomas H.</h1>
-          <p>Founder and CEO of atom.com</p>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-            excepturi sint occaecati</p>
-        </div>
-        <div class="reviews__carousel--item">
-          <div class="item__img">
-            <img alt="avt" src="/build/assets/images/Luis-Enrique.jpg">
-          </div>
-          <h1>Luis Enrique E.</h1>
-          <p>Designer of microsoft.com</p>
-          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
-            maiores alias consequatur aut perferendis doloribus asperiores repellat.
-            Sed ut perspiciatis unde omnis</p>
-        </div>
-
-        <div class="reviews__carousel--item">
-          <div class="item__img">
-            <img alt="avt" src="/build/assets/images/Hotaru-Hoshi.jpg">
-          </div>
-          <h1>Hotaru Hoshi</h1>
-          <p>Founder and CEO of bellaz.com</p>
-          <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-            minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis
-            dolor repellendus.</p>
-        </div>
-      </div>
-      <h1 id="unique"><i class="fa fa-quote-left" aria-hidden="true"></i></h1>
-
-    </div>
-  </div>
-</section>
-<!-- end review.html-->
-<!-- start about.html-->
-<section class="sec_about" id="sec_about">
-  <div class="container">
-    <div class="about">
-      <div class="about__content">
-        <h1>About Us</h1>
-        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
-        <p class="ctn-mobile">Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.</p>
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-          atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-          sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-        <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-          consequatur aut perferendis doloribus asperiores repellat.</p>
-        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-          placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam
-          et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
-
-
-        <p class="ctn-sp">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-          venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-          elementum semper nisi.</p>
-        <p class="ctn-sp">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-          quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-        </p>
-        <p class="ctn-sp">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
-          ante. Etiam sit amet orci eget.</p>
-
-      </div>
-      <div class="about__carousel">
-        <img alt="slide" src="/build/assets/images/aboutus.webp">
-        <img alt="slide" src="/build/assets/images/AB3.jpg">
-        <img alt="slide" src="/build/assets/images/about-us2.jpg">
-        <img alt="slide" src="/build/assets/images/AB4.jpg">
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- end about.html-->
-<!-- start contact.html-->
-<section class="sec_contact" id="sec_contact">
-  <div class="container">
-    <div class="contact">
-      <div class="contact__slogan">
-        <h1>Contact Us</h1>
-        <p>Nam eget dui. Etiam rhoncus. Maecenas tempus. </p>
-      </div>
-      <div class="contact__action">
-        <div class="contact__action--form">
-
-          <form id="validation">
-
-            <input type="text" class="form-control" name="fullname" placeholder="Full Name">
-            <input type="text" class="form-control" name="email" placeholder="Email">
-            <br>
-            <select class="form-control" name="country">
-              <option value="0" selected="" disabled="">Country / City</option>
-              <option value="vietnam">Vietnam</option>
-              <option value="japan">Japan</option>
-              <option value="australia">Australia</option>
-              <option value="usa">USA</option>
-              <option value="canada">Canada</option>
-            </select>
-            <input type="text" class="form-control" name="subject" placeholder="Subject">
-            <textarea class="message formEntry form-control" name="message" placeholder="Write Your Message"></textarea>
-            <br>
-            <div class="form-btn ">
-              <button type="submit" name="submit">SEND MESSAGE</button>
-              <div class="form-ckb">
-                <input type="checkbox" class="form-control" name="checkbox"> <label id="cbk">Accept The Terms and Conditions of
-                  Privacy.</label>
-              </div>
+  <!-- end sidebar.html-->
+  <!-- start banner.html-->
+  <section class="sec_banner" id="sec_banner">
+    <div class="container">
+      <div class="banner">
+        <div class="banner__title">
+          <div class="banner__title--icon">
+            <div class="icon1">
+              <img src="/build/assets/images/Icon App1.png" alt="">
             </div>
-          </form>
+            <div class="icon2">
+              <img src="/build/assets/images/Button Play.png" alt=""> <span>WATCH VIDEO</span>
+            </div>
+          </div>
+          <div class="banner__title--ctn">
+            <h1>What's New in The Apps Store for Quick Chats</h1>
+            <p>Try the best chat platform in the world, you can install where you need it.
+              Our prestigious security will be well protected.
+            </p>
+          </div>
+          <div class="banner__title--btn">
+            <button class="fir_btn">
+              <h2>BUY NOW $19.99</h2>
+            </button>
+            <button class="sed_btn">FEATURE</button>
+            <div class="icon2">
+              <div class="icon2__img"><img src="/build/assets/images/Button Play.png" alt=""></div>
+              <div class="icon2__link"><span>WATCH VIDEO</span></div>
+
+            </div>
+          </div>
+        </div>
+        <div class="banner__img">
+          <img src="/build/assets/images/Smartphone Mockup.png" alt=smartphone>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end banner.html-->
+  <!-- start feature.html-->
+  <section class="sec_feature" id="sec_feature">
+    <div class="container">
+      <div class="feature">
+        <div class="feature__slogan">
+          <h1>Features</h1>
+          <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
+        </div>
+        <div class="feature__content">
+          <div class="feature__content--word">
+            <h3>What is it</h3>
+            <h1>Fastlanding</h1>
+            <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+              alias consequatur aut perferendis doloribus asperiores repellat. Set up perspiciatis unde
+              omnis iste natus error sit volemtatem.
+            </p>
+            <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
+              nisi.
+              Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+            <div class="word__btn">
+              <button id="ios"><img alt="iosdlw" src="/build/assets/images/Apple ios.png"></button>
+              <button id="and"><img alt="androiddlw" src="/build/assets/images/Android.png"></button>
+            </div>
+          </div>
+          <div class="feature__content--img">
+            <img alt="smartphone" src="/build/assets/images/Smartphone Mockup Cross.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end feature.html-->
+  <!-- start client.html-->
+  <section class="sec_clients" id="sec_clients">
+    <div class="container">
+      <div class="clients">
+        <div class="clients__slogan">
+          <h1>Our clients</h1>
+          <p>These brands certify it</p>
+        </div>
+        <div class="clients__brand">
+          <div class="clients__brand--item">
+            <img alt="Brand1" src="/build/assets/images/Brand 1.png">
+          </div>
+          <div class="clients__brand--item">
+            <img alt="Brand2" src="/build/assets/images/Brand 2.png">
+          </div>
+          <div class="clients__brand--item">
+            <img alt="Brand3" src="/build/assets/images/Brand 3.png">
+          </div>
+          <div class="clients__brand--item">
+            <img alt="Brand4" src="/build/assets/images/Brand 4.png">
+          </div>
+          <div class="clients__brand--item">
+            <img alt="Brand5" src="/build/assets/images/Brand 5.png">
+          </div>
+          <div class="clients__brand--item">
+            <img alt="Brand6" src="/build/assets/images/Brand 6.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end client.html-->
+  <!-- start spec.html-->
+  <section class="sec_spec" id="sec_spec">
+    <div class="container">
+      <div class="spec">
+        <div class="spec__slogan">
+          <h1>Specifications</h1>
+          <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
+        </div>
+        <div class="spec__group">
+          <div class="spec__group--item">
+            <div class="item--img">
+              <img alt="icon" src="/build/assets/images/Icon.png">
+            </div>
+            <h2>Data encryption</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti.
+            </p>
+          </div>
+
+          <div class="spec__group--item">
+            <div class="item--img">
+              <img alt="icon" src="/build/assets/images/mail.png">
+            </div>
+            <h2>Corporate mail</h2>
+            <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+              Vivamus elementum semper nisi.
+            </p>
+          </div>
+
+          <div class="spec__group--item">
+            <div class="item--img">
+              <img alt="icon" src="/build/assets/images/storage.png">
+            </div>
+            <h2>Storage</h2>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+              nisi ut aliquid.
+            </p>
+          </div>
+
+          <div class="spec__group--item">
+            <div class="item--img">
+              <img alt="icon" src="/build/assets/images/download.png">
+            </div>
+            <h2>Data download</h2>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+              fugit, sed quia consequuntur magni.
+            </p>
+          </div>
         </div>
 
-        <div class="contact__action--infor">
-          <div class="information">
-            <h3>Information</h3>
+        <div class="spec__group2">
+          <div class="spec__group2--item">
+            <div class="item--img">
+              <img alt="support" src="/build/assets/images/support.png">
+            </div>
+            <div class="item--word">
+              <h2>Support and services</h2>
+              <p>Itaque earum rerum hic tenetur a sapiente delectus,
+                ut aut reiciendis voluptatibus maiores alias consequatur.
+              </p>
+            </div>
+          </div>
+
+          <div class="spec__group2--item">
+            <div class="item--img">
+              <img alt="support" src="/build/assets/images/quick.png">
+            </div>
+            <div class="item--word">
+              <h2>Quick talk</h2>
+              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                impedit quo minus id quod.
+              </p>
+            </div>
+          </div>
+
+          <div class="spec__group2--item">
+            <div class="item--img">
+              <img alt="support" src="/build/assets/images/rocket.png">
+            </div>
+            <div class="item--word">
+              <h2>Powerful servers</h2>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end spec.html-->
+  <!-- start pricing.html-->
+  <section class="sec_pricing" id="sec_pricing">
+    <div class="container">
+      <div class="pricing">
+        <div class="pricing__slogan">
+          <h1>Pricing</h1>
+          <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
+
+          <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
+            Cras dapibus. Vivamus elementum semper nisi.
+          </p>
+        </div>
+        <div class="pricing__content">
+          <div class="pricing__content--item">
+            <h1>Free</h1>
+            <span class="dolar">$</span>
+            <p><span>0 </span>/Year</p>
             <ul>
-              <li>Av., 210 W Adams Blvd, CA 90007</li>
-              <li>phone: +1 213-777-2777</li>
-              <li>email: info@fastlanding.com</li>
-              <li>Los Angeles, California</li>
+              <li>1 - 5 Chat Rooms</li>
+              <li>5 User Each Room</li>
+              <li>10 GB of Storage</li>
+              <li>1 Corporate Mail</li>
+              <li>Data Encryption</li>
+              <li>Copy and Download Data</li>
+            </ul>
+            <button>START NOW</button>
+          </div>
+
+          <div class="pricing__content--item">
+            <div class="popular">
+              <h3>POPULAR PRICE</h3>
+            </div>
+            <h1>SMEs</h1>
+            <span class="dolar">$</span>
+            <p><span>9.99 </span>/Year</p>
+            <ul>
+              <li>1 - 15 Chat Rooms</li>
+              <li>10 User Each Room</li>
+              <li>20 GB of Storage</li>
+              <li>5 Corporate Mail</li>
+              <li>Data Encryption</li>
+              <li>Copy and Download Data</li>
+            </ul>
+            <button>SELECT PLAN</button>
+          </div>
+
+          <div class="pricing__content--item">
+            <h1>Enterprise</h1>
+            <span class="dolar">$</span>
+            <p><span>19.99 </span>/Year</p>
+            <ul>
+              <li>1 - 30 Chat Rooms</li>
+              <li>30 User Each Room</li>
+              <li>Unlimited of Storage</li>
+              <li>Unlimited Corporate Mail</li>
+              <li>Data Encryption</li>
+              <li>Copy and Download Data</li>
+            </ul>
+            <button>SELECT PLAN</button>
+
+          </div>
+        </div>
+        <div class="pricing__note">
+          <p>* All these prices are in US dollars and change according to their rise or fall.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end pricing.html-->
+  <!-- start review.html-->
+  <section class="sec_reviews" id="sec_reviews">
+    <div class="container">
+      <div class="reviews">
+        <div class="reviews__slogan">
+          <h1>Reviews</h1>
+          <p>Donec quam felis, ultricies nec, pellentesque eu, sem. </p>
+        </div>
+        <div class="reviews__carousel">
+          <div class="reviews__carousel--item">
+            <div class="item__img">
+              <img alt="avt" src="/build/assets/images/Jeff-Thomas.jpg">
+            </div>
+            <h1>Jeff Thomas H.</h1>
+            <p>Founder and CEO of atom.com</p>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi sint occaecati</p>
+          </div>
+          <div class="reviews__carousel--item">
+            <div class="item__img">
+              <img alt="avt" src="/build/assets/images/Luis-Enrique.jpg">
+            </div>
+            <h1>Luis Enrique E.</h1>
+            <p>Designer of microsoft.com</p>
+            <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+              maiores alias consequatur aut perferendis doloribus asperiores repellat.
+              Sed ut perspiciatis unde omnis</p>
+          </div>
+
+          <div class="reviews__carousel--item">
+            <div class="item__img">
+              <img alt="avt" src="/build/assets/images/Hotaru-Hoshi.jpg">
+            </div>
+            <h1>Hotaru Hoshi</h1>
+            <p>Founder and CEO of bellaz.com</p>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
+              minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis
+              dolor repellendus.</p>
+          </div>
+        </div>
+        <h1 id="unique"><i class="fa fa-quote-left" aria-hidden="true"></i></h1>
+
+      </div>
+    </div>
+  </section>
+  <!-- end review.html-->
+  <!-- start about.html-->
+  <section class="sec_about" id="sec_about">
+    <div class="container">
+      <div class="about">
+        <div class="about__content">
+          <h1>About Us</h1>
+          <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+          <p class="ctn-mobile">Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus.</p>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+            atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+            sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+          <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+            consequatur aut perferendis doloribus asperiores repellat.</p>
+          <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+            placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam
+            et aut officiis debitis aut rerum necessitatibus saepe eveniet.</p>
+
+
+          <p class="ctn-sp">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus
+            ut, imperdiet a,
+            venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+            elementum semper nisi.</p>
+          <p class="ctn-sp">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+            dapibus in, viverra
+            quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+          </p>
+          <p class="ctn-sp">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
+            Nullam quis
+            ante. Etiam sit amet orci eget.</p>
+
+        </div>
+        <div class="about__carousel">
+          <img alt="slide" src="/build/assets/images/aboutus.webp">
+          <img alt="slide" src="/build/assets/images/AB3.jpg">
+          <img alt="slide" src="/build/assets/images/about-us2.jpg">
+          <img alt="slide" src="/build/assets/images/AB4.jpg">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about.html-->
+  <!-- start contact.html-->
+  <section class="sec_contact" id="sec_contact">
+    <div class="container">
+      <div class="contact">
+        <div class="contact__slogan">
+          <h1>Contact Us</h1>
+          <p>Nam eget dui. Etiam rhoncus. Maecenas tempus. </p>
+        </div>
+        <div class="contact__action">
+          <div class="contact__action--form">
+
+            <form id="validation">
+
+              <input type="text" class="form-control" name="fullname" placeholder="Full Name">
+              <input type="text" class="form-control" name="email" placeholder="Email">
+              <br>
+              <select class="form-control" name="country">
+                <option value="0" selected="" disabled="">Country / City</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="japan">Japan</option>
+                <option value="australia">Australia</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+              </select>
+              <input type="text" class="form-control" name="subject" placeholder="Subject">
+              <textarea class="message formEntry form-control" name="message"
+                placeholder="Write Your Message"></textarea>
+              <br>
+              <div class="form-btn ">
+                <button type="submit" name="submit">SEND MESSAGE</button>
+                <div class="form-ckb">
+                  <input type="checkbox" class="form-control" name="checkbox"> <label id="cbk">Accept The Terms and
+                    Conditions of
+                    Privacy.</label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact__action--infor">
+            <div class="information">
+              <h3>Information</h3>
+              <ul>
+                <li>Av., 210 W Adams Blvd, CA 90007</li>
+                <li>phone: +1 213-777-2777</li>
+                <li>email: info@fastlanding.com</li>
+                <li>Los Angeles, California</li>
+              </ul>
+            </div>
+            <div class="contacts">
+              <h3>Contacts</h3>
+              <ul>
+                <li>John William Duck</li>
+                <li>email: jwduck@fastlanding.com</li>
+                <li>Jonathan Li</li>
+                <li>email: jli@fastlanding.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact.html-->
+
+
+  <!-- end content -->
+  <!-- start footer.html-->
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__logo">
+          <div class="footer__logo--img">
+            <img alt="logo" src="/build/assets/images/Logo Header.png">
+          </div>
+          <div class="footer__logo--ctn">
+            <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
+              ante.</p>
+          </div>
+        </div>
+        <div class="footer__infor">
+          <div class="footer__infor--company">
+            <ul>
+              <li>Company</li>
+              <li>Blog</li>
+              <li>Community</li>
+              <li>Forum</li>
             </ul>
           </div>
-          <div class="contacts">
-            <h3>Contacts</h3>
+          <div class="footer__infor--support">
             <ul>
-              <li>John William Duck</li>
-              <li>email: jwduck@fastlanding.com</li>
-              <li>Jonathan Li</li>
-              <li>email: jli@fastlanding.com</li>
+              <li>Support</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+              <li>FAQs</li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- end contact.html-->
-
-
-<!-- end content -->
-<!-- start footer.html-->
-<footer>
-  <div class="container">
-    <div class="footer">
-      <div class="footer__logo">
-        <div class="footer__logo--img">
-          <img alt="logo" src="/build/assets/images/Logo Header.png">
-        </div>
-        <div class="footer__logo--ctn">
-          <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
-            ante.</p>
-        </div>
-      </div>
-      <div class="footer__infor">
-        <div class="footer__infor--company">
-          <ul>
-            <li>Company</li>
-            <li>Blog</li>
-            <li>Community</li>
-            <li>Forum</li>
-          </ul>
-        </div>
-        <div class="footer__infor--support">
-          <ul>
-            <li>Support</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>FAQs</li>
-          </ul>
-        </div>
+      <div class="copyright">
+        <p>© 2017 fastlanding, Inc.</p>
+        <p>All Rights Reserved. Designed and Developed by CM</p>
       </div>
     </div>
-    <div class="copyright">
-      <p>© 2017 fastlanding, Inc.</p>
-      <p>All Rights Reserved. Designed and Developed by CM</p>
-    </div>
-  </div>
-</footer>
-<!-- end footer.html-->
+  </footer>
+  <!-- end footer.html-->
 
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.validate.min.js"></script>
